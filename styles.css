@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(17, 90, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Formulario de Registro de Usuario */
+
+.registro_de_usuario_div {
+    width: 525px;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.5);
+}
+
+.registro_de_usuario_span {
+    font-size: 15px;
+    padding-top: 30px;
+} 
+
+.registro_de_usuario_label {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    display: block;
+}
+
+.registro_de_usuario_input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(27, 27, 89);
+    margin: 5px 0px;
+    padding-right: 350px;
+}
+
+.registro_de_usuario_boton {
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(27, 27, 89);
+    margin: 5px 0px;
+    padding-right: 350px;
+}

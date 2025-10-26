@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro | Preparación COAR</title>
+    <link rel="Stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+
+    </div>
+    <div class="registro_de_usuario_div">
+    <form>
+        <h2>¡Registrate y empieza a aprender!</h2>
+        <label class="registro_de_usuario_label">Nombres:</label>
+            <input
+            class="registro_de_usuario_input"
+            type="text"
+            name="nombres"
+            placeholder="Tus nombres"
+            autocomplete="given-name"
+            required
+            maxlength="50">
+
+        <label class="registro_de_usuario_label">Apellidos:</label>
+            <input
+            class="registro_de_usuario_input"
+            type="text"
+            name="apellidos"
+            placeholder="Tus apellidos"
+            autocomplete="family-name"
+            required
+            maxlength="50">
+
+        <label class="registro_de_usuario_label">DNI:</label>
+            <input
+            class="registro_de_usuario_input"
+            type="text"
+            name="dni"
+            placeholder="12345678"
+            inputmode="numeric"
+            pattern="^\d{8}$"
+            title="Ingresa 8 dígitos sin espacios"
+            required>
+        </label>
+
+        <label class="registro_de_usuario_label">COAR al que postulas:</label>
+            <select name="coar" class="registro_de_usuario_input">
+            <option value="">Selecciona tu COAR</option>
+            <option value="coar_amazonas">COAR Amazonas</option>
+            <option value="coar_áncash">COAR Ancash</option>
+            <option value="coar_apurímac">COAR Apurímac</option>
+            <option value="coar_arequipa">COAR Arequipa</option>
+            <option value="coar_ayacucho">COAR Ayacucho</option>
+            <option value="coar_cajamarca">COAR Cajamarca</option>
+            <option value="coar_cusco">COAR Cusco</option>
+            <option value="coar_huancavelica">COAR Huancavelica</option>
+            <option value="coar_huánuco">COAR Huánuco</option>
+            <option value="coar_ica">COAR Ica</option>
+            <option value="coar_junín">COAR Junín</option>
+            <option value="coar_la_libertad">COAR La Libertad</option>
+            <option value="coar_lambayeque">COAR Lambayeque</option>
+            <option value="coar_lima">CMSPP COAR Lima</option>
+            <option value="coar_lima_provincias">COAR Lima Provincias</option>
+            <option value="coar_loreto">COAR Loreto</option>
+            <option value="coar_madre_de_dios">COAR Madre de Dios</option>
+            <option value="coar_moquegua">COAR Moquegua</option>
+            <option value="coar_pasco">COAR Pasco</option>
+            <option value="coar_piura">COAR Piura</option>
+            <option value="coar_puno">COAR Puno</option>
+            <option value="coar_san_martín">COAR San Martín</option>
+            <option value="coar_tacna">COAR Tacna</option>
+            <option value="coar_tumbes">COAR Tumbes</option>
+            <option value="coar_ucayali">COAR Ucayali</option>
+            </select>
+        </label>
+
+        <label class="registro_de_usuario_label">Correo:</label>
+            <input
+            class="registro_de_usuario_input"
+            type="email"
+            name="email"
+            placeholder="tunombre@mail.com"
+            autocomplete="email"
+            required>
+        </label>
+
+        <label class="registro_de_usuario_label">Contraseña:</label>
+            <input
+            class="registro_de_usuario_input"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Mínimo 8 caracteres"
+            autocomplete="new-password"
+            minlength="8"
+            required>
+        </label>
+
+        <label class="registro_de_usuario_label">Confirmar Contraseña:</label>
+            <input
+            class="registro_de_usuario_input"
+            type="password"
+            name="password2"
+            id="password2"
+            placeholder="Repite la contraseña"
+            autocomplete="new-password"
+            minlength="8"
+            required>
+        </label>
+
+        <button type="submit" class="registro_de_usuario_boton">Registrarme
+        </button>
+    </form>
+    </div>
+</body>
+</html>
