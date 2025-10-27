@@ -7,29 +7,18 @@
     <link rel="Stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-
+    <div class="registro_de_usuario_div_logo">
+        <img class="registro_de_usuario_logo" title="Preparate COAR" src="imagenes/logo.svg">
     </div>
     <div class="registro_de_usuario_div">
     <form>
-        <h2>¡Registrate y empieza a aprender!</h2>
-        <label class="registro_de_usuario_label">Nombres:</label>
+        <h2 class="registro_de_usuario_h2">¡Registrate y empieza a aprender!</h2>
+        <label class="registro_de_usuario_label">Nombres y Apellidos:</label>
             <input
             class="registro_de_usuario_input"
             type="text"
             name="nombres"
-            placeholder="Tus nombres"
-            autocomplete="given-name"
-            required
-            maxlength="50">
-
-        <label class="registro_de_usuario_label">Apellidos:</label>
-            <input
-            class="registro_de_usuario_input"
-            type="text"
-            name="apellidos"
-            placeholder="Tus apellidos"
-            autocomplete="family-name"
+            placeholder="Tu nombre completo"
             required
             maxlength="50">
 
@@ -88,7 +77,7 @@
 
         <label class="registro_de_usuario_label">Contraseña:</label>
             <input
-            class="registro_de_usuario_input"
+            class="registro_de_usuario_input_contraseña"
             type="password"
             name="password"
             id="password"
@@ -97,22 +86,10 @@
             minlength="8"
             required>
         </label>
-
-        <label class="registro_de_usuario_label">Confirmar Contraseña:</label>
-            <input
-            class="registro_de_usuario_input"
-            type="password"
-            name="password2"
-            id="password2"
-            placeholder="Repite la contraseña"
-            autocomplete="new-password"
-            minlength="8"
-            required>
-        </label>
-
-        <button type="submit" class="registro_de_usuario_boton">Registrarme
-        </button>
+        <p class="mensaje_final">Al hacer clic en Regístrarme, aceptas los <a href="archivos/guia.pdf" target="_blank">Términos de uso</a> y reconoces las <a href="archivos/guia.pdf" target="_blank">Políticas de privacidad.</a></p>
+        <button type="submit" class="registro_de_usuario_boton">Registrarme</button>
     </form>
     </div>
 </body>
+</html>
 </html>
